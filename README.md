@@ -1,6 +1,7 @@
 # This a personal testing repository
-## Git, Java, Maven, OOP, Unit Tests
-This repo includes mostly exercices and notes.
+_This is the 2nd iteration of the repo because of compilation bugs_
+## Git, Java, OOP, Unit Tests
+This repo includes mostly exercises and notes.
 
 This repo may or may not contain mistakes and untranslated terms.
 

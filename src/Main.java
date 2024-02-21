@@ -1,16 +1,24 @@
-import classes.Polymorphism;
+import classes.animals.Bird;
+import classes.shapes.Circle;
+import classes.shapes.Cylinder;
+import classes.shapes.Rectangle;
 
 public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
 
-        Polymorphism polymorphism = new Polymorphism();
-        Polymorphism.Cylinder cylinder = polymorphism.new Cylinder();
-        Polymorphism.Circle circle = polymorphism.new Circle();
+        Rectangle rectangle = new Rectangle();
+        Circle circle = new Circle();
+        Cylinder cylinder = new Cylinder();
+        Bird bird = new Bird();
+
+
+        rectangle.draw();
 
         cylinder.setHeight(10);
         cylinder.setRadius(3);
-        System.out.println("Cylinder surface area" + cylinder.calculateArea());
+        System.out.println("Cylinder surface area : " + cylinder.calculateArea());
+
     }
 }
