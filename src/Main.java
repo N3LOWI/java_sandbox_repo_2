@@ -3,12 +3,17 @@ import classes.filehandler.TxtFileMaker;
 import classes.shapes.Circle;
 import classes.shapes.Cylinder;
 import classes.shapes.Rectangle;
+import classes.workout.WorkoutApp;
+
+import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
 
+
+        /*
         Rectangle rectangle = new Rectangle();
         Circle circle = new Circle();
         Cylinder cylinder = new Cylinder();
@@ -23,6 +28,9 @@ public class Main {
 
         TxtFileMaker TxtFileMake = new TxtFileMaker();
         TxtFileMake.createTextFile();
+        */
+
+        SwingUtilities.invokeLater(() -> new WorkoutApp().createAndShowGUI());
 
     }
 }
